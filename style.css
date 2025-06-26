@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.share-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 8px 12px;
+  background-color: #1da1f2;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.share-buttons a:nth-child(2) {
+  background-color: #0077b5;
+}
